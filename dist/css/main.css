@@ -10070,6 +10070,10 @@ ul {
   font-weight: 300;
 }
 
+.main-footer__content span img {
+  margin-right: 10px;
+}
+
 .main-footer__content .address {
   color: #616161;
 }
