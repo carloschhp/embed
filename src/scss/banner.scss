@@ -1,0 +1,80 @@
+@import "mixins";
+@import "variables";
+
+// ####################
+// #################### Banner
+// ####################
+
+// # 1. Main
+
+.main-banner {
+	background-position: center;
+	background-size: cover;
+	padding-top: 100px;
+	min-height: 350px;
+	height: 800px;
+
+	@media ($max_md) {
+		height: 600px;
+	}
+
+	.bar-actions {
+		margin-top: 110px;
+
+		@media ($max_md) {
+			margin-top: 30px;
+		}
+	}
+}
+
+.main-banner--image {
+	background-image: url('../img/banner/banner.jpg');
+}
+
+.main-banner--flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-banner__content {
+	max-width: 890px;
+	margin: auto;
+
+	p {
+		color: $white;
+		font-size: 18px;
+		font-weight: 300 !important;
+
+		@media ($max_md) {
+			font-size: 14px;
+		}
+
+		&.align-center {
+			text-align: center;
+		}
+
+		+ p {
+			margin-top: 25px;
+		}
+	}
+}
+
+.main-banner__content__title {
+	text-align: center;
+	margin-bottom: 150px;
+
+	@media ($max_md) {
+		margin-bottom: 20px;
+		font-size: 25px !important;
+	}
+}
+
+.bar-actions {
+	display: flex;
+	flex-direction: row;
+
+	&.align-center {
+		justify-content: center;
+	}
+}
