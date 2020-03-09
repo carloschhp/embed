@@ -10095,6 +10095,10 @@ ul {
   flex-direction: column;
 }
 
+.main-footer__content__block span + span {
+  margin-top: 10px;
+}
+
 .main-footer__content__block + .main-footer__content__block {
   margin-top: 60px;
 }
