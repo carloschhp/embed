@@ -13,10 +13,16 @@
   padding: 0px 50px;
   font-size: 20px;
   border-radius: 60px;
-  color: $cap;
+  color: #111822;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media  ($max_lg) {
+    padding: 0px 25px;
+    height: 50px;
+    font-size: 16px;
+  }
 
   &:hover {
   	background-color: $carnation !important;
