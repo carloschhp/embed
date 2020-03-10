@@ -261,7 +261,7 @@ ul {
 
 .box-content {
   padding: 50px;
-  min-height: 550px;
+  min-height: 500px;
 
   @media ($max_md) {
     padding: 25px;
@@ -383,6 +383,10 @@ ul {
     @media ($max_lg) {
       font-size: 16px;
     }
+
+    @media ($max_lg) {
+      margin-bottom: 35px;
+    }
   }
 }
 
@@ -417,6 +421,9 @@ ul {
       max-width: 140px;
       max-height: 50px;
       image-rendering: -webkit-optimize-contrast;
+      @media ($max_sm) {
+        max-width: 100px;
+      }
     }
   }
 }
@@ -579,7 +586,7 @@ ul {
   .email {
     color: $carnation;
   }
-  
+
   .copyright {
     color: #9e9e9e;
 

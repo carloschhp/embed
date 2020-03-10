@@ -16,7 +16,7 @@
 
 	@media ($max_lg) {
 		height: 100vh;
-		min-height: 500px;
+		min-height: 480px;
 	}
 
 	@media ($max_md) {
@@ -28,6 +28,10 @@
 
 		@media ($max_lg) {
 			margin-top: 30px;
+		}
+
+		@media ($max_md) {
+			margin-top: 10px;
 		}
 	}
 }
@@ -71,6 +75,10 @@
 
 	@media ($max_lg) {
 		margin-bottom: 20px;
+	}
+
+	@media ($max_md) {
+		font-size: 26px !important;
 	}
 }
 
