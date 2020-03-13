@@ -24,7 +24,7 @@
 	}
 
 	.bar-actions {
-		margin-top: 110px;
+		margin-top: 70px;
 
 		@media ($max_lg) {
 			margin-top: 30px;
@@ -37,7 +37,7 @@
 }
 
 .main-banner--image {
-	background-image: url('../img/banner/banner.jpg');
+	background-image: url('../img/hero.jpg');
 }
 
 .main-banner--flex {
@@ -47,7 +47,7 @@
 }
 
 .main-banner__content {
-	max-width: 890px;
+	max-width: 790px;
 	margin: auto;
 
 	p {
@@ -57,6 +57,10 @@
 
 		@media ($max_md) {
 			font-size: 16px;
+		}
+
+		@media ($max_sm) {
+			font-size: 14px;
 		}
 
 		&.align-center {
@@ -71,7 +75,7 @@
 
 .main-banner__content__title {
 	text-align: center;
-	margin-bottom: 150px;
+	margin-bottom: 40px;
 
 	@media ($max_lg) {
 		margin-bottom: 20px;
@@ -79,6 +83,11 @@
 
 	@media ($max_md) {
 		font-size: 26px !important;
+	}
+
+	@media ($max_md) {
+		font-size: 24px !important;
+		margin-bottom: 15px;
 	}
 }
 

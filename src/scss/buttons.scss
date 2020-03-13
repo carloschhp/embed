@@ -25,9 +25,9 @@
   }
 
   &:hover {
-  	background-color: $carnation !important;
-  	color: $white !important;
-  	text-decoration: none;
+    background-color: #ffffff !important;
+    color: #f4795a !important;
+    text-decoration: none;
   }
 
 	&--primary {
@@ -35,7 +35,7 @@
 	}
 
   &--secondary {
-    background-color: $black;
+    background-color: #2b3b52;
     color: $white;
   }
 }
